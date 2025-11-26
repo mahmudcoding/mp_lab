@@ -52,11 +52,6 @@ class RootMenuScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            const Text(
-              'Используй эти экраны в юнит и widget тестах:\n'
-              '- CounterScreen для Task 2\n'
-              '- LoginScreen для Task 3, 4, 5',
-            ),
             const SizedBox(height: 24),
             ElevatedButton(
               onPressed: () {
